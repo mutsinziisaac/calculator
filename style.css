@@ -1,4 +1,6 @@
-
+body{
+    background-color:cadetblue ;
+}
 .calculator {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -6,6 +8,9 @@
     max-width: 300px;
     margin: 0 auto;
     background-color: blanchedalmond;
+  }
+  .right-side {
+    grid-column: 3 / span 2;
   }
   
   .display {
@@ -29,7 +34,7 @@
   
   .equal {
     background-color: #4caf50;
-    grid-column: 1 / span 2;
+    grid-column: 3 / span 2;
   }
   
   .clear, .backspace {
