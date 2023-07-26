@@ -1,0 +1,38 @@
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+  }
+  
+  .display {
+    grid-column: 1 / span 4;
+    background-color: #f0f0f0;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5rem;
+    overflow: hidden;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: #ff9800;
+  }
+  
+  .equal {
+    background-color: #4caf50;
+    grid-column: 1 / span 2;
+  }
+  
+  .clear, .backspace {
+    background-color: #f44336;
+  }
+  
